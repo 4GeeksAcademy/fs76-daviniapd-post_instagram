@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(6, 6, 6);
     margin: 0;
     position: absolute;
-    top: 100px;
-    right: 300px;
-    left: 300px;
-    bottom: 100px;
+    top: 50px;
+    right: 200px;
+    left: 200px;
+    bottom: 50px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -16,7 +16,7 @@ body {
     position: relative;
     background-color: rgb(233, 233, 233);
     width: 500px;
-    margin: 20px auto;
+    margin: auto;
 
     
 }
@@ -32,9 +32,17 @@ body {
 .profile-image img {
     width: 100%;
     height: 50px;
-    border-radius: 100%;
     object-fit: cover;
     object-position: center;
+}
+.profile {
+    width: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white),linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 .user{
@@ -61,6 +69,25 @@ body {
     padding: 10px 20px;
     align-items: center;
     box-sizing: border-box;
+}
+
+.body-icons {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.body-icons i {
+    width: 100%;
+    font-size: 25px;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+.icon-bookmark i {
+    width: 100%;
+    margin-left: 353px; 
 }
 
 .color-hashtag {
