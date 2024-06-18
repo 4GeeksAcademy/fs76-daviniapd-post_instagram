@@ -11,14 +11,11 @@ body {
     font-style: normal;
 }
 
-
 .post {
     position: relative;
     background-color: rgb(233, 233, 233);
     width: 500px;
-    margin: auto;
-
-    
+    margin: auto; 
 }
 
 .post-header {
@@ -35,6 +32,7 @@ body {
     object-fit: cover;
     object-position: center;
 }
+
 .profile {
     width: 50px;
     border-radius: 50%;
@@ -47,7 +45,7 @@ body {
 
 .user{
     width: 100%;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .options i {
@@ -93,4 +91,3 @@ body {
 .color-hashtag {
     color: rgb(16, 138, 179);
 }
-
