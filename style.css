@@ -83,9 +83,12 @@ body {
     margin: 2px;
 }
 
-.icon-bookmark i {
+.icon-bookmark {
     width: 100%;
-    margin-left: 353px; 
+}
+.icon-bookmark i {
+    width: 5%;
+    float: right; 
 }
 
 .color-hashtag {
